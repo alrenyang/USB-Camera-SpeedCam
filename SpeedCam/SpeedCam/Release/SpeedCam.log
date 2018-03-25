@@ -1,0 +1,36 @@
+﻿Build started 2018-02-21 오후 7:38:42.
+     1>Project "D:\Work_Project\SpeedCam\SpeedCam\SpeedCam.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\SpeedCam.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Work_Project\SpeedCam\SpeedCam\lib\x86 /Zi /nologo /W3 /WX- /MP /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\SpeedCam.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SpeedCam.cpp
+         SpeedCam.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Work_Project\SpeedCam\Release\SpeedCam.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Work_Project\SpeedCam\SpeedCam\lib\x86 lib\x86\CyAPI.lib setupapi.lib /NODEFAULTLIB:LIBC /MANIFEST /ManifestFile:"Release\SpeedCam.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Work_Project\SpeedCam\Release\SpeedCam.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Work_Project\SpeedCam\Release\SpeedCam.lib" /MACHINE:X86 Release\SpeedCam.res
+         Release\ChildFrm.obj
+         Release\Device_Control.obj
+         Release\DockPanel.obj
+         Release\MainFrm.obj
+         Release\OutputWnd.obj
+         Release\SpeedCam.obj
+         Release\SpeedCamDoc.obj
+         Release\SpeedCamView.obj
+         Release\stdafx.obj
+         Release\USB3_DEV.obj
+         Release\ViewTree.obj
+         Generating code
+         Finished generating code
+         SpeedCam.vcxproj -> D:\Work_Project\SpeedCam\Release\SpeedCam.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Work_Project\SpeedCam\Release\SpeedCam.exe;#1" /manifest Release\SpeedCam.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\SpeedCam.unsuccessfulbuild".
+         Touching "Release\SpeedCam.lastbuildstate".
+     1>Done Building Project "D:\Work_Project\SpeedCam\SpeedCam\SpeedCam.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.08

@@ -1,0 +1,84 @@
+﻿Build started 2018-02-28 오후 10:47:46.
+     1>Project "D:\Work_Project\SpeedCam\SpeedCam\SpeedCam.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\x64\Debug\SpeedCam.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\Work_Project\eCam\SpeedCam\SpeedCam\lib /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp".\x64\Debug\SpeedCam.pch" /Fo".\x64\Debug\\" /Fd".\x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\Work_Project\eCam\SpeedCam\SpeedCam\lib /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp".\x64\Debug\SpeedCam.pch" /Fo".\x64\Debug\\" /Fd".\x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt ChildFrm.cpp Device_Control.cpp DockPanel.cpp FormatBayer10.cpp FormatBayer8.cpp FormatConvert.cpp FormatRGB.cpp FormatYCbCr.cpp MainFrm.cpp MarblixUsb3.cpp OutputWnd.cpp SpeedCam.cpp SpeedCamDoc.cpp SpeedCamView.cpp USB3_DEV.cpp ViewTree.cpp
+         ViewTree.cpp
+         USB3_DEV.cpp
+         SpeedCamView.cpp
+     1>SpeedCamView.cpp(424): warning C4101: 'tf' : unreferenced local variable
+         SpeedCamDoc.cpp
+         SpeedCam.cpp
+         OutputWnd.cpp
+         MarblixUsb3.cpp
+         MainFrm.cpp
+         FormatYCbCr.cpp
+         FormatRGB.cpp
+         FormatConvert.cpp
+         FormatBayer8.cpp
+         FormatBayer10.cpp
+         DockPanel.cpp
+         Device_Control.cpp
+         ChildFrm.cpp
+         Generating Code...
+     1>d:\work_project\speedcam\speedcam\formatbayer10.cpp(19): warning C4700: uninitialized local variable 'DataFactor' used
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /I.\x64\Debug\ /nologo /fo".\x64\Debug\SpeedCam.res" SpeedCam.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\x64\Debug\SpeedCam.exe.embed.manifest.res" .\x64\Debug\SpeedCam_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\x64\Debug\SpeedCam.exe" /INCREMENTAL /NOLOGO lib\x64\CyAPI.lib setupapi.lib /NODEFAULTLIB:LIBC /NODEFAULTLIB:LIBCMT /MANIFEST /ManifestFile:".\x64\Debug\SpeedCam.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Work_Project\SpeedCam\SpeedCam\x64\Debug\SpeedCam.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:".\x64\Debug\SpeedCam.lib" /MACHINE:X64 .\x64\Debug\SpeedCam.res
+         .\x64\Debug\SpeedCam.exe.embed.manifest.res
+         .\x64\Debug\ChildFrm.obj
+         .\x64\Debug\Device_Control.obj
+         .\x64\Debug\DockPanel.obj
+         .\x64\Debug\FormatBayer10.obj
+         .\x64\Debug\FormatBayer8.obj
+         .\x64\Debug\FormatConvert.obj
+         .\x64\Debug\FormatRGB.obj
+         .\x64\Debug\FormatYCbCr.obj
+         .\x64\Debug\MainFrm.obj
+         .\x64\Debug\MarblixUsb3.obj
+         .\x64\Debug\OutputWnd.obj
+         .\x64\Debug\SpeedCam.obj
+         .\x64\Debug\SpeedCamDoc.obj
+         .\x64\Debug\SpeedCamView.obj
+         .\x64\Debug\stdafx.obj
+         .\x64\Debug\USB3_DEV.obj
+         .\x64\Debug\ViewTree.obj
+         SpeedCam.vcxproj -> D:\Work_Project\SpeedCam\SpeedCam\.\x64\Debug\SpeedCam.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\x64\Debug\SpeedCam.exe.embed.manifest" /manifest .\x64\Debug\SpeedCam.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\x64\Debug\SpeedCam.exe.embed.manifest.res" .\x64\Debug\SpeedCam_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\x64\Debug\SpeedCam.exe" /INCREMENTAL /NOLOGO lib\x64\CyAPI.lib setupapi.lib /NODEFAULTLIB:LIBC /NODEFAULTLIB:LIBCMT /MANIFEST /ManifestFile:".\x64\Debug\SpeedCam.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Work_Project\SpeedCam\SpeedCam\x64\Debug\SpeedCam.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:".\x64\Debug\SpeedCam.lib" /MACHINE:X64 .\x64\Debug\SpeedCam.res
+         .\x64\Debug\SpeedCam.exe.embed.manifest.res
+         .\x64\Debug\ChildFrm.obj
+         .\x64\Debug\Device_Control.obj
+         .\x64\Debug\DockPanel.obj
+         .\x64\Debug\FormatBayer10.obj
+         .\x64\Debug\FormatBayer8.obj
+         .\x64\Debug\FormatConvert.obj
+         .\x64\Debug\FormatRGB.obj
+         .\x64\Debug\FormatYCbCr.obj
+         .\x64\Debug\MainFrm.obj
+         .\x64\Debug\MarblixUsb3.obj
+         .\x64\Debug\OutputWnd.obj
+         .\x64\Debug\SpeedCam.obj
+         .\x64\Debug\SpeedCamDoc.obj
+         .\x64\Debug\SpeedCamView.obj
+         .\x64\Debug\stdafx.obj
+         .\x64\Debug\USB3_DEV.obj
+         .\x64\Debug\ViewTree.obj
+         SpeedCam.vcxproj -> D:\Work_Project\SpeedCam\SpeedCam\.\x64\Debug\SpeedCam.exe
+       FinalizeBuildStatus:
+         Deleting file ".\x64\Debug\SpeedCam.unsuccessfulbuild".
+         Touching ".\x64\Debug\SpeedCam.lastbuildstate".
+     1>Done Building Project "D:\Work_Project\SpeedCam\SpeedCam\SpeedCam.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.82
