@@ -408,7 +408,7 @@ void CSpeedCamApp::UsbConnect()
 			//GetData = m_pFormatRGB->GetBits();
 			PBYTE Gdata = m_pFormatRGB->GetBits();
 			TRACE(_T("Thread1 %d\r\n"),nTest);
-#if 1
+#if 0
 			if(bResult){
 			CWinApp *pApp = AfxGetApp(); 
 			CMainFrame *pFrame = (CMainFrame*)pApp->GetMainWnd();
@@ -446,19 +446,6 @@ void CSpeedCamApp::UsbConnect()
 #endif
 
 	m_csData.SetEvent();
-
-
-	//CWinApp *pApp = AfxGetApp(); 
-	//CMainFrame *pFrame = (CMainFrame*)pApp->GetMainWnd();
-	//CSpeedCamView *pview = (CSpeedCamView*)AfxGetApp();
-	//pview->OnPaint();
-	//HWND hWnd = pview->m_hWnd;
-
-	//InvalidateRect(hWnd, NULL, FALSE);
-
-	//CWnd* pWnd = CWnd::FromHandle(HWND);
-	//POSITION pos = GetFirstViewPosition();
-
 }
 
 void CSpeedCamApp::UpdateWindowView()
